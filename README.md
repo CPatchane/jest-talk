@@ -6,4 +6,5 @@ The slides are also available here (PDF format).
 Cédric Patchane
 
 Code License: MIT
+
 Slides License: Creative commons CC-BY-SA
