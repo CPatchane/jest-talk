@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`searchFantasyName should return results from "am" query 1`] = `
+Array [
+  "Ceolliam",
+  "Thasrichham",
+]
+`;
