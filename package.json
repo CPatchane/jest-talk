@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "test:sum": "jest sum/",
+    "test:search": "jest searchFantasyName/",
+    "test:app": "jest HN-app/",
+    "pygments": "pbpaste | pygmentize -O style=monokai -f rtf -l js | pbcopy",
+    "pygments:jsx": "pbpaste | pygmentize -O style=monokai -f rtf -l jsx-lexer.py:JsxLexer -x | pbcopy",
+    "pygments:html": "pbpaste | pygmentize -O style=monokai -f rtf -l html | pbcopy"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.4.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
