@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StoriesList component should be rendered correctly 1`] = `
+<div
+  className="stories"
+>
+  <div>
+    <a
+      href="http://mock.example.com/mock1"
+      target="_blank"
+    >
+      <div>
+        <span
+          className="index"
+        >
+          1
+        </span>
+        Story number one by MissOne
+        <span
+          className="score"
+        >
+          189
+           points
+        </span>
+      </div>
+      <p
+        className="link"
+      >
+        http://mock.example.com/mock1
+      </p>
+    </a>
+  </div>
+  <div>
+    <a
+      href="http://mock.example.com/mock2"
+      target="_blank"
+    >
+      <div>
+        <span
+          className="index"
+        >
+          2
+        </span>
+        Story number two by MisterTwo
+        <span
+          className="score"
+        >
+          145
+           points
+        </span>
+      </div>
+      <p
+        className="link"
+      >
+        http://mock.example.com/mock2
+      </p>
+    </a>
+  </div>
+</div>
+`;

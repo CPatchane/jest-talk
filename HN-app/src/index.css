@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Spinner */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.App-header {
+  height: auto!important;
+}
+
+h1.App-intro {
+  font-size: 30px;
+}
+
+.loading {
+  font-size: 50px;
+  animation: 1s linear infinite spin;
+}
+
+.stories a {
+  display: block;
+  /* max-width: 50rem; */
+  margin: 0;
+  padding: 2rem 1rem 1.5rem 1rem;
+  background-color: white;
+  border-bottom: 1px solid #d6d8da;
+  text-align: left;
+  color: #32363f;
+  text-decoration: none;
+}
+
+.stories a:hover {
+  background-color: #d6d8da;
+}
+
+.stories .index {
+  color: #95999d;
+  margin-right: 1rem;
+}
+
+.stories .score {
+  color: #ff7f1b;
+  margin-left: 1rem;
+}
+
+
+.stories .link {
+  font-size: 14px;
+  color: #197bff;
+  margin: .5rem 0 0 1.5rem;
+}
